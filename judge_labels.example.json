@@ -1,0 +1,10 @@
+{
+  "status": "TEMPLATE_ONLY_REQUIRES_REAL_HUMAN_REVIEW",
+  "instructions": "Replace human_label values with labels produced by an actual human reviewer, then run eval/calibrate_judge.py.",
+  "items": [
+    {"id":"cal-01","human_label":null,"judge_label":1},
+    {"id":"cal-02","human_label":null,"judge_label":0},
+    {"id":"cal-03","human_label":null,"judge_label":1},
+    {"id":"cal-04","human_label":null,"judge_label":1}
+  ]
+}
