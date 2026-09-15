@@ -1,0 +1,20 @@
+project:
+  name: "LLM Application Engineering Project"
+  date: "2026-09-15"
+models:
+  aliases:
+    commercial_primary:
+      provider: openai
+      model: gpt-5-mini
+    commercial_fallback:
+      provider: anthropic
+      model: claude-sonnet-4-5
+    open_weight:
+      provider: openai_compatible
+      model: meta-llama/Llama-3.1-8B-Instruct
+      base_url_env: OPEN_WEIGHT_BASE_URL
+runtime:
+  max_tool_steps: 3
+  retry_attempts: 3
+  retry_base_seconds: 0.5
+  response_cache_ttl_seconds: 300

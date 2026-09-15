@@ -1,0 +1,18 @@
+[project]
+name = "llm-application-engineering"
+version = "1.0.0"
+description = "Production-style bilingual AI engineering reference project"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.8",
+  "openai>=1.50",
+  "anthropic>=0.40",
+  "PyYAML>=6.0"
+]
+
+[project.scripts]
+llm-ai = "ai_engineering.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
