@@ -1,0 +1,24 @@
+{
+  "golden_version": "1.0.0",
+  "total": 6,
+  "pass_rate": 1.0,
+  "by_slice": {
+    "injection": {
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.006
+    },
+    "normal": {
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.1955
+    },
+    "pii": {
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.011
+    },
+    "schema": {
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.004
+    }
+  },
+  "total_cost_usd": 0.0
+}
